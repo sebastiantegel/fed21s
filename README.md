@@ -8,7 +8,7 @@ Dessa projekt kommer att beskriva olika koncept av utveckling av vue/react-appli
 
 Detta projekt visar vad ett projekt innehåller från början samt hur vi kan börja strukturera våra komponenter. Vi kommer att börja titta på state och props. Vad det är och hur vi kan använda det för att kommunicera mellan komponenter.
 
-- [https://vuejs.org/guide/quick-start.html#with-build-tools](Vuejs - Quick start)
-- [https://vuejs.org/guide/essentials/application.html#app-configurations](Vuejs - Understanding the application)
-- [https://vuejs.org/guide/essentials/template-syntax.html](Vuejs - Template syntax)
-- [https://vuejs.org/guide/essentials/component-basics.html](Vuejs - Component basics)
+- [Vuejs - Quick start](https://vuejs.org/guide/quick-start.html#with-build-tools)
+- [Vuejs - Understanding the application](https://vuejs.org/guide/essentials/application.html#app-configurations)
+- [Vuejs - Template syntax](https://vuejs.org/guide/essentials/template-syntax.html)
+- [Vuejs - Component basics](https://vuejs.org/guide/essentials/component-basics.html)
