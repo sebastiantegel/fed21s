@@ -4,7 +4,7 @@
 
 Dessa projekt kommer att beskriva olika koncept av utveckling av vue/react-applikationer. Varje projekt kommer att beskriva just sitt projekt tillsammans med länkar till resurser för koncepten.
 
-### Vue - Getting started
+### Vue - state_props
 
 Detta projekt visar vad ett projekt innehåller från början samt hur vi kan börja strukturera våra komponenter. Vi kommer att börja titta på state och props. Vad det är och hur vi kan använda det för att kommunicera mellan komponenter.
 
