@@ -12,3 +12,12 @@ Detta projekt visar vad ett projekt innehåller från början samt hur vi kan b�
 - [Vuejs - Understanding the application](https://vuejs.org/guide/essentials/application.html#app-configurations)
 - [Vuejs - Template syntax](https://vuejs.org/guide/essentials/template-syntax.html)
 - [Vuejs - Component basics](https://vuejs.org/guide/essentials/component-basics.html)
+
+### Vue - Directives
+
+Detta projekt kommer att gå igenom jättemånga saker :)
+T.ex. :class, v-if och v-for.
+
+- [Vuejs - Class binding](https://vuejs.org/guide/essentials/class-and-style.html#binding-html-classes)
+- [Vuejs - Conditional rendering](https://vuejs.org/guide/essentials/conditional.html)
+- [Vuejs - Lists](https://vuejs.org/guide/essentials/list.html)
