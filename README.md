@@ -28,3 +28,9 @@ Detta projekt visar hur vi kan använda händelser för t.ex. klick samt hur vi 
 
 - [Vuejs - Event handling](https://vuejs.org/guide/essentials/event-handling.html)
 - [Vuejs - Form input binding](https://vuejs.org/guide/essentials/forms.html)
+
+### Vue - axios
+
+Detta projekt visar en bra struktur för att hämta data med hjälp av axios. Vi arbetar med tjänster och strukturer i våra projekt.
+
+- [Axios](https://axios-http.com/docs/intro)
