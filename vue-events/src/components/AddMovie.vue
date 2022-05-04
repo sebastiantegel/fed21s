@@ -1,13 +1,13 @@
 <template>
   <div>
-    <form @submit.prevent=""></form>
-
-    <input
-      type="text"
-      placeholder="Filmtitel"
-      v-model="movieTitle"
-      @keypress.enter="handleClick"
-    />
+    <form @submit.prevent="onSubmit">
+      <input
+        type="text"
+        placeholder="Filmtitel"
+        v-model="movieTitle"
+        @keypress.enter="handleClick"
+      />
+    </form>
     <!-- <button
       @click="
         () => {
@@ -30,6 +30,10 @@ export default class AddMovie extends Vue {
   handleClick() {
     console.log("Du klickade", this.movieTitle);
     this.$emit("addMovie", new Movie(this.movieTitle, 200, ""));
+  }
+
+  onSubmit() {
+    console.log("Submit forms");
   }
 }
 </script>
