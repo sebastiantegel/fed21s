@@ -34,3 +34,7 @@ Detta projekt visar hur vi kan använda händelser för t.ex. klick samt hur vi 
 Detta projekt visar en bra struktur för att hämta data med hjälp av axios. Vi arbetar med tjänster och strukturer i våra projekt.
 
 - [Axios](https://axios-http.com/docs/intro)
+
+### Vue - env
+
+Vi tittar på hur .env-filer fungerar i vue. För att detta projekt skall fungera behöver ni skapa en .env.local och lägga till VUE_APP_SECRET_API_KEY som har er omdbapi-nyckel som värde.
