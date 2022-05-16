@@ -38,3 +38,11 @@ Detta projekt visar en bra struktur för att hämta data med hjälp av axios. Vi
 ### Vue - env
 
 Vi tittar på hur .env-filer fungerar i vue. För att detta projekt skall fungera behöver ni skapa en .env.local och lägga till VUE_APP_SECRET_API_KEY som har er omdbapi-nyckel som värde.
+
+### React - Hello world
+
+Vi tittar på hur vi skapar projekt och använder oss av state. Träna på att använda JSX istället för template som i vue.
+
+- [Create React App](https://reactjs.org/docs/create-a-new-react-app.html)
+- [JSX](https://reactjs.org/docs/introducing-jsx.html)
+- [Rendering elements](https://reactjs.org/docs/rendering-elements.html)
