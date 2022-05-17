@@ -50,3 +50,6 @@ Vi tittar på hur vi skapar projekt och använder oss av state. Träna på att a
 ### React - Props Events
 
 Nu går vi igenom hur vi kan skicka information mellan komponenter med hjälp av props. Sedan ändrar vi lite state med hjälp av händelser och går igenpm click samt change.
+
+[Props](https://reactjs.org/docs/components-and-props.html)
+[Events](https://reactjs.org/docs/handling-events.html)
