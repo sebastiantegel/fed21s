@@ -46,3 +46,7 @@ Vi tittar på hur vi skapar projekt och använder oss av state. Träna på att a
 - [Create React App](https://reactjs.org/docs/create-a-new-react-app.html)
 - [JSX](https://reactjs.org/docs/introducing-jsx.html)
 - [Rendering elements](https://reactjs.org/docs/rendering-elements.html)
+
+### React - Props Events
+
+Nu går vi igenom hur vi kan skicka information mellan komponenter med hjälp av props. Sedan ändrar vi lite state med hjälp av händelser och går igenpm click samt change.
