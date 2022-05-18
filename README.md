@@ -51,5 +51,12 @@ Vi tittar på hur vi skapar projekt och använder oss av state. Träna på att a
 
 Nu går vi igenom hur vi kan skicka information mellan komponenter med hjälp av props. Sedan ändrar vi lite state med hjälp av händelser och går igenpm click samt change.
 
-[Props](https://reactjs.org/docs/components-and-props.html)
-[Events](https://reactjs.org/docs/handling-events.html)
+- [Props](https://reactjs.org/docs/components-and-props.html)
+- [Events](https://reactjs.org/docs/handling-events.html)
+
+### React - Lists
+
+Vi går igenom villkordstyrd rendering och listor. Tre olika sätt för att göra villkordstyrd rendering, både genom variabler och genom logik i html-strukturen. Listor använder funktionen map för att skapa nya listor med JSX-element som vi kan rendera med hjälp av react. 
+
+- [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
+- [Lists](https://reactjs.org/docs/lists-and-keys.html)
