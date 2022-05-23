@@ -60,3 +60,10 @@ Vi går igenom villkordstyrd rendering och listor. Tre olika sätt för att gör
 
 - [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
 - [Lists](https://reactjs.org/docs/lists-and-keys.html)
+
+### React - axios - Effect
+
+Detta projekt kommer att visa hur vi kan hämta data från api:er på ett kontrollerat sätt med hjälp av react. Vi går även igenom grundläggande formulär och hur vi kan hantera komplexa state i formulär.
+
+- [useEffect](https://reactjs.org/docs/hooks-effect.html)
+- [Forms](https://reactjs.org/docs/forms.html)
