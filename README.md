@@ -67,3 +67,9 @@ Detta projekt kommer att visa hur vi kan hämta data från api:er på ett kontro
 
 - [useEffect](https://reactjs.org/docs/hooks-effect.html)
 - [Forms](https://reactjs.org/docs/forms.html)
+
+### React - Lifting State Up
+
+Detta projekt visar hur vi kan använda lifting state up och skicka funktioner via props. 
+
+- [Lifting state up](https://reactjs.org/docs/lifting-state-up.html)
