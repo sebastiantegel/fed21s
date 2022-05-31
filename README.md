@@ -73,3 +73,9 @@ Detta projekt kommer att visa hur vi kan hämta data från api:er på ett kontro
 Detta projekt visar hur vi kan använda lifting state up och skicka funktioner via props. 
 
 - [Lifting state up](https://reactjs.org/docs/lifting-state-up.html)
+
+### React - Router
+
+Detta projekt visar grunderna i react router. Vi tittar på routes, url-parametrar, layouts (index) och link. Sedan finns en demo som går igenom hur allting används i praktiken.
+
+- [React Router Dom](https://reactrouterdotcom.fly.dev/docs/en/v6)
