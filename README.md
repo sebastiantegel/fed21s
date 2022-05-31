@@ -83,3 +83,5 @@ Detta projekt visar grunderna i react router. Vi tittar på routes, url-parametr
 ### React - Tic Tac Toe
 
 Detta är en mall för vad ni behöver utgå ifrån när ni skall testa att omvandla den tutorial som finns i react documentation till typescript och scss. Gå igenom denna tutorial, läs vad som skall göras och omvandla till typescript och funktionella komponenter. Det kan vara lite lurigare än det ser ut som :)
+
+- [Tutorial](https://reactjs.org/tutorial/tutorial.html)
