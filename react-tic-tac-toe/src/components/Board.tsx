@@ -1,16 +1,19 @@
 import { Square } from "./Square";
 import "./../styles/Board.scss";
+import { useEffect, useState } from "react";
 
-export const Board = () => {
-  const status = "Next player: X";
+interface IBoardProps {
+  squares: string[];
+  onClick(i: number): void;
+}
 
+export const Board = (props: IBoardProps) => {
   const renderSquare = (i: number) => {
-    return <Square />;
+    return <Square value={props.squares[i]} onClick={() => props.onClick(i)} />;
   };
 
   return (
     <div>
-      <div className="status">{status}</div>
       <div className="board-row">
         {renderSquare(0)}
         {renderSquare(1)}
