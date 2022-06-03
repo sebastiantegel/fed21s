@@ -4,27 +4,34 @@ interface ITheme {
   name: string;
   color: string;
   background: string;
-  toggleTheme(): void;
+  toggleTheme(nextTheme: string): void;
 }
 
 interface IThemes {
   light: ITheme;
   dark: ITheme;
+  party: ITheme;
 }
 
-export const themes: IThemes = {
-  light: {
+export const themes: ITheme[] = [
+  {
     name: "Light",
     color: "black",
     background: "#12bc5f",
-    toggleTheme: () => {},
+    toggleTheme: (nextTheme: string) => {},
   },
-  dark: {
+  {
     name: "Dark",
     color: "white",
     background: "black",
-    toggleTheme: () => {},
+    toggleTheme: (nextTheme: string) => {},
   },
-};
+  {
+    color: "pink",
+    background: "turquoise",
+    name: "Party",
+    toggleTheme: (nextTheme: string) => {},
+  },
+];
 
-export const ThemeContext = createContext(themes.light);
+export const ThemeContext = createContext(themes[0]);

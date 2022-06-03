@@ -4,10 +4,14 @@ import { Child } from "./components/Child";
 import { ThemeContext, themes } from "./contexts/ThemeContext";
 
 function App() {
-  const [theme, setTheme] = useState(themes.dark);
+  const [theme, setTheme] = useState(themes[0]);
 
-  theme.toggleTheme = () => {
-    theme === themes.light ? setTheme(themes.dark) : setTheme(themes.light);
+  theme.toggleTheme = (nextTheme: string) => {
+    for (let i = 0; i < themes.length; i++) {
+      if (themes[i].name === nextTheme) {
+        setTheme(themes[i]);
+      }
+    }
   };
 
   return (

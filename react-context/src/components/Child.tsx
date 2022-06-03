@@ -1,5 +1,5 @@
-import { useContext } from "react";
-import { ThemeContext } from "../contexts/ThemeContext";
+import { ChangeEvent, useContext } from "react";
+import { ThemeContext, themes } from "../contexts/ThemeContext";
 
 export const Child = () => {
   let theme = useContext(ThemeContext);
@@ -8,10 +8,26 @@ export const Child = () => {
     <>
       <button
         style={{ color: theme.color, backgroundColor: theme.background }}
-        onClick={theme.toggleTheme}
+        onClick={() => {
+          theme.toggleTheme("Party");
+        }}
       >
         Ändra tema
       </button>
+
+      <select
+        onChange={(e: ChangeEvent<HTMLSelectElement>) => {
+          theme.toggleTheme(e.target.value);
+        }}
+      >
+        {themes.map((theme) => {
+          return (
+            <option key={theme.name} value={theme.name}>
+              {theme.name}
+            </option>
+          );
+        })}
+      </select>
     </>
   );
 };
