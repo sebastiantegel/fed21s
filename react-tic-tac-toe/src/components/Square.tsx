@@ -1,5 +1,15 @@
+import { useState } from "react";
 import "./../styles/Square.scss";
 
-export const Square = () => {
-  return <button className="square">{/* TODO */}</button>;
+interface ISquareProps {
+  value: string;
+  onClick(): void;
+}
+
+export const Square = (props: ISquareProps) => {
+  return (
+    <button className="square" onClick={props.onClick}>
+      {props.value}
+    </button>
+  );
 };
